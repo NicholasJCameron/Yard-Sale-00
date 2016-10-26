@@ -104,13 +104,21 @@ class Register00: UIViewController,UITextFieldDelegate {
            self.counter += 1;
             
             if(counter == 2){
-                if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
-                    let storyBoard : UIStoryboard = UIStoryboard(name: "Register01", bundle:nil)
+//                if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
+            
+                
+                
+                
+                //This is adding to the data manager array and eventually it will populate it all
+                Registration.registrationData.append(businessName);
+                Registration.registrationData.append(businessLocation);
+
+                let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
                     
-                    let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Register01") as! Login
+                    let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Register01") as! Register01
                     self.present(nextViewController, animated:true, completion:nil)
                     
-                }
+               // }
             }
             
             

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="-631.5" y="-1036.5"/>
         </scene>
-        <!--Login-->
+        <!--Register01-->
         <scene sceneID="Sqn-ES-5kk">
             <objects>
-                <viewController restorationIdentifier="Register01" storyboardIdentifier="Register01" id="iS1-r3-CTm" customClass="Login" customModule="Register01" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Register01" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iS1-r3-CTm" customClass="Register01" customModule="Yard_Sale_00" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X6a-L1-HsT"/>
                         <viewControllerLayoutGuide type="bottom" id="O3F-D0-et5"/>
