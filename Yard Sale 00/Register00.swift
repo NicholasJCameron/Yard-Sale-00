@@ -9,9 +9,12 @@
 import UIKit
 
 class Register00: UIViewController,UITextFieldDelegate {
+  
+    
+    var Registration = DataManagerViewController();
+    
     @IBOutlet weak var lblBusiessName: UILabel!
     @IBOutlet weak var lblError: UILabel!
-
     @IBOutlet weak var txtData: UITextField!
     @IBOutlet weak var btnArrowForward: UIButton!
     @IBOutlet weak var btnArrowBack: UIButton!
@@ -20,8 +23,16 @@ class Register00: UIViewController,UITextFieldDelegate {
     let screenSize: CGRect = UIScreen.main.bounds
     var inOrOut = 0;
     var lblText = "Busiess Name";
-    var BusinessName = String();
-    var BusinessLocation = String();
+   
+    var businessName = "";
+    var businessLocation = "";
+    
+   //this is the counter to see when to switch to the next view
+    //to continue registering..
+    //when the second input of data is entered and confirmed it will switch aka counter = 2..012
+     var counter = 0;
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,7 +80,7 @@ class Register00: UIViewController,UITextFieldDelegate {
     }
   
     @IBAction func BackArrow(_ sender: AnyObject) {
-       
+        self.counter = 0;
         self.inOrOut = 1;
         slideLabel(labelOne: lblBusiessName);
 
@@ -79,11 +90,27 @@ class Register00: UIViewController,UITextFieldDelegate {
     @IBAction func ForwardArrow(_ sender: AnyObject) {
         self.inOrOut = 0;
         if(txtData.text != ""){
+            if(counter == 0){
+                businessName = txtData.text!;
+            }else{
+                businessLocation = txtData.text!;
+            }
+            
         slideLabel(labelOne: lblBusiessName);
             lblError.isHidden = true;
             btnArrowBack.alpha = 1;
             btnArrowBack.isEnabled = true;
-
+            txtData.text = "";
+           self.counter += 1;
+            
+            if(counter == 2){
+                if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
+                    
+                }
+            }
+            
+            
+            
 
         }else{
             lblError.isHidden = false;
