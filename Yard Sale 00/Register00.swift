@@ -105,6 +105,10 @@ class Register00: UIViewController,UITextFieldDelegate {
             
             if(counter == 2){
                 if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
+                    let storyBoard : UIStoryboard = UIStoryboard(name: "Register01", bundle:nil)
+                    
+                    let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Register01") as! Login
+                    self.present(nextViewController, animated:true, completion:nil)
                     
                 }
             }
