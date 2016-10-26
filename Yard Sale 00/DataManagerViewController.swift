@@ -11,6 +11,7 @@ import CoreData
 
 class DataManagerViewController {
 
+    public var registrationData = [String]();
     
     
     func Register(userName: String,password: String,businessName: String, businessLocation: String, businessType: String)->Bool  {
