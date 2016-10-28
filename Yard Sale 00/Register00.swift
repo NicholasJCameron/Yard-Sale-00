@@ -28,9 +28,10 @@ class Register00: UIViewController,UITextFieldDelegate {
     var businessLocation = "";
     
    //this is the counter to see when to switch to the next view
-    //to continue registering..
-    //when the second input of data is entered and confirmed it will switch aka counter = 2..012
-     var counter = 0;
+  //to continue registering..
+ //when the second input of data is entered and confirmed it will switch aka counter = 2..012
+    
+    var counter = 0;
     
     
     
@@ -40,17 +41,16 @@ class Register00: UIViewController,UITextFieldDelegate {
         lblError.isHidden = true;
         lblBusiessName.text = "Business Name"
         btnArrowBack.isEnabled = false;
-        
-
-        
-        
-        
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     func slideLabel(labelOne: UILabel){
         labelOne.text = "Business Name";
         labelOne.textColor = UIColor.black
@@ -66,6 +66,7 @@ class Register00: UIViewController,UITextFieldDelegate {
         
     };
     
+    
     func animationTwo(labelTwo: UILabel){
         UIView.animate(withDuration: 1.0, delay: 0.0, usingSpringWithDamping: 0.0, initialSpringVelocity: 0.0, options: .curveEaseIn, animations: {
             
@@ -78,6 +79,8 @@ class Register00: UIViewController,UITextFieldDelegate {
             }, completion:nil)
         
     }
+    
+    
   
     @IBAction func BackArrow(_ sender: AnyObject) {
         self.counter = 0;
@@ -86,6 +89,7 @@ class Register00: UIViewController,UITextFieldDelegate {
 
 
     }
+    
   
     @IBAction func ForwardArrow(_ sender: AnyObject) {
         self.inOrOut = 0;
@@ -105,10 +109,7 @@ class Register00: UIViewController,UITextFieldDelegate {
             
             if(counter == 2){
 //                if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
-            
-                
-                
-                
+
                 //This is adding to the data manager array and eventually it will populate it all
                 Registration.registrationData.append(businessName);
                 Registration.registrationData.append(businessLocation);
@@ -117,41 +118,32 @@ class Register00: UIViewController,UITextFieldDelegate {
                     
                     let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Register01") as! Register01
                     self.present(nextViewController, animated:true, completion:nil)
-                    
                // }
             }
-            
-            
-            
-
         }else{
             lblError.isHidden = false;
         
         }
-
-     
        // txtData.resignFirstResponder()
-
-
-
-       
     }
+    
+    
     func checkToSlideInOrOut(checker:Int)-> Int{
         if(checker == 0){
             return 1
         }else{
             return 0;
         }
-}//end of function
+    }//end of function
+    
+    
     
     open func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
 
-    
-    
- 
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Pass the selected object to the new view controller.
     }
