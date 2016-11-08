@@ -107,30 +107,4 @@ class HavingViewController: UIViewController, MKMapViewDelegate,CLLocationManage
                                                                   regionRadius * 2.0, regionRadius * 2.0)
         MapView.setRegion(coordinateRegion, animated: true)
     }
-    
-
-    // pinColor for disciplines: Sculpture, Plaque, Mural, Monument, other
-//    func pinColor() -> MKPinAnnotationColor  {
-//        switch discipline {
-//        case "Sculpture", "Plaque":
-//            return .Red
-//        case "Mural", "Monument":
-//            return .Purple
-//        default:
-//            return .Green
-//        }
-//    }
-    
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

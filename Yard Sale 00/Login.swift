@@ -22,27 +22,10 @@ class Login: UIViewController,UITextFieldDelegate{
 
         self.txtUsername.delegate = self;
         self.txtPassword.delegate = self;
-//
-//        NotificationCenter.default.addObserver(self, selector: #selector(Login.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(Login.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-//
-//    
 
-//        @IBAction func Register(_ sender: AnyObject) {
-//        }
-        // Do any additional setup after loading the view.
+        
     }
-    
-//    func keyboardWillShow(notification: NSNotification) {
-//        
-//        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-//            if self.view.frame.origin.y == 0{
-//                self.view.frame.origin.y -= keyboardSize.height
-//            }
-//        }
-//        
-//    }
-    open func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        open func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     if(txtPassword.isFirstResponder && !txtPassword.isEqual("") && lblpass.text == "Password" ){
             lblpass.text = "Confirm Password";
             firstPassword = txtPassword.text!;
@@ -75,15 +58,7 @@ class Login: UIViewController,UITextFieldDelegate{
         return true
     }
 
-    
-//    func keyboardWillHide(notification: NSNotification) {
-//        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-//            if self.view.frame.origin.y != 0{
-//                self.view.frame.origin.y += keyboardSize.height
-//            }
-//        }
-//    }
-    
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

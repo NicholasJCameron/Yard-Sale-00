@@ -19,6 +19,8 @@
 		6D9DDE561D6E61AB0089C7E8 /* Yard_Sale_00Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DDE551D6E61AB0089C7E8 /* Yard_Sale_00Tests.swift */; };
 		6D9DDE611D6E61AB0089C7E8 /* Yard_Sale_00UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DDE601D6E61AB0089C7E8 /* Yard_Sale_00UITests.swift */; };
 		6D9DDE6F1D78F2D20089C7E8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DDE6E1D78F2D20089C7E8 /* MapView.swift */; };
+		78A3F59A610BB5FBEE5E92B0 /* Pods_Yard_Sale_00Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC230CD72471EB20412865F2 /* Pods_Yard_Sale_00Tests.framework */; };
+		85BFE9321B63071F9251592A /* Pods_Yard_Sale_00UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A248F399AF6CC34648DE90C0 /* Pods_Yard_Sale_00UITests.framework */; };
 		9F31DBE41DC025740092BD7A /* DataManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31DBE21DC025730092BD7A /* DataManagerViewController.swift */; };
 		9F31DBE51DC025740092BD7A /* DataManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F31DBE31DC025730092BD7A /* DataManagerViewController.xib */; };
 		9F31DBE81DC02B690092BD7A /* Register01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31DBE71DC02B690092BD7A /* Register01.swift */; };
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06779A19F7AE123058D69216 /* Pods-Yard Sale 00UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yard Sale 00UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yard Sale 00UITests/Pods-Yard Sale 00UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51595A8C7E190893A5F4548B /* Pods-Yard Sale 00Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yard Sale 00Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yard Sale 00Tests/Pods-Yard Sale 00Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5227A2A48CA9FD15FF7BFC16 /* Pods_Yard_Sale_00.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yard_Sale_00.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D497EA71D986E520032B09F /* dataPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataPicker.swift; sourceTree = "<group>"; };
 		6D8F53441DB5A4BD004FA4FD /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		6D8F53481DB5AB41004FA4FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -60,9 +65,15 @@
 		6D9DDE601D6E61AB0089C7E8 /* Yard_Sale_00UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yard_Sale_00UITests.swift; sourceTree = "<group>"; };
 		6D9DDE621D6E61AB0089C7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D9DDE6E1D78F2D20089C7E8 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../MapView.swift; sourceTree = "<group>"; };
+		705268AA71DE8E2514D3931B /* Pods-Yard Sale 00.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yard Sale 00.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yard Sale 00/Pods-Yard Sale 00.debug.xcconfig"; sourceTree = "<group>"; };
+		82E96A0887A6F0E085827994 /* Pods-Yard Sale 00.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yard Sale 00.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yard Sale 00/Pods-Yard Sale 00.release.xcconfig"; sourceTree = "<group>"; };
+		90EF8D4E8024C6E4190ADFA9 /* Pods-Yard Sale 00UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yard Sale 00UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yard Sale 00UITests/Pods-Yard Sale 00UITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F31DBE21DC025730092BD7A /* DataManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerViewController.swift; sourceTree = "<group>"; };
 		9F31DBE31DC025730092BD7A /* DataManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataManagerViewController.xib; sourceTree = "<group>"; };
 		9F31DBE71DC02B690092BD7A /* Register01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register01.swift; sourceTree = "<group>"; };
+		A248F399AF6CC34648DE90C0 /* Pods_Yard_Sale_00UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yard_Sale_00UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC230CD72471EB20412865F2 /* Pods_Yard_Sale_00Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yard_Sale_00Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9A3ED54CE511FF30E37581 /* Pods-Yard Sale 00Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yard Sale 00Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yard Sale 00Tests/Pods-Yard Sale 00Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A3F59A610BB5FBEE5E92B0 /* Pods_Yard_Sale_00Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BFE9321B63071F9251592A /* Pods_Yard_Sale_00UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F7FD92BEABD0C601AA14D77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5227A2A48CA9FD15FF7BFC16 /* Pods_Yard_Sale_00.framework */,
+				CC230CD72471EB20412865F2 /* Pods_Yard_Sale_00Tests.framework */,
+				A248F399AF6CC34648DE90C0 /* Pods_Yard_Sale_00UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D9DDE311D6E61AA0089C7E8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +120,8 @@
 				6D9DDE541D6E61AB0089C7E8 /* Yard Sale 00Tests */,
 				6D9DDE5F1D6E61AB0089C7E8 /* Yard Sale 00UITests */,
 				6D9DDE3B1D6E61AB0089C7E8 /* Products */,
+				ED84E13BF4D1CFBE606059C4 /* Pods */,
+				2F7FD92BEABD0C601AA14D77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +182,19 @@
 			name = Login/Registration;
 			sourceTree = "<group>";
 		};
+		ED84E13BF4D1CFBE606059C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				705268AA71DE8E2514D3931B /* Pods-Yard Sale 00.debug.xcconfig */,
+				82E96A0887A6F0E085827994 /* Pods-Yard Sale 00.release.xcconfig */,
+				51595A8C7E190893A5F4548B /* Pods-Yard Sale 00Tests.debug.xcconfig */,
+				DF9A3ED54CE511FF30E37581 /* Pods-Yard Sale 00Tests.release.xcconfig */,
+				06779A19F7AE123058D69216 /* Pods-Yard Sale 00UITests.debug.xcconfig */,
+				90EF8D4E8024C6E4190ADFA9 /* Pods-Yard Sale 00UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D9DDE681D6E61AB0089C7E8 /* Build configuration list for PBXNativeTarget "Yard Sale 00Tests" */;
 			buildPhases = (
+				72A5B8D05E44F855B2255497 /* [CP] Check Pods Manifest.lock */,
 				6D9DDE4D1D6E61AB0089C7E8 /* Sources */,
 				6D9DDE4E1D6E61AB0089C7E8 /* Frameworks */,
 				6D9DDE4F1D6E61AB0089C7E8 /* Resources */,
+				EC5C5E96547F83CE914E78E6 /* [CP] Embed Pods Frameworks */,
+				B0C6A83D7266D4DDF5C7F679 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D9DDE6B1D6E61AB0089C7E8 /* Build configuration list for PBXNativeTarget "Yard Sale 00UITests" */;
 			buildPhases = (
+				BD731ED8CE140F59100A578F /* [CP] Check Pods Manifest.lock */,
 				6D9DDE581D6E61AB0089C7E8 /* Sources */,
 				6D9DDE591D6E61AB0089C7E8 /* Frameworks */,
 				6D9DDE5A1D6E61AB0089C7E8 /* Resources */,
+				24DAB2D217D1859C287BF95F /* [CP] Embed Pods Frameworks */,
+				81C89B2D01A86B3BB9BAA76E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +333,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DAB2D217D1859C287BF95F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yard Sale 00UITests/Pods-Yard Sale 00UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A5B8D05E44F855B2255497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81C89B2D01A86B3BB9BAA76E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yard Sale 00UITests/Pods-Yard Sale 00UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C6A83D7266D4DDF5C7F679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yard Sale 00Tests/Pods-Yard Sale 00Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD731ED8CE140F59100A578F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5C5E96547F83CE914E78E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yard Sale 00Tests/Pods-Yard Sale 00Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D9DDE361D6E61AA0089C7E8 /* Sources */ = {
@@ -440,9 +577,14 @@
 		};
 		6D9DDE661D6E61AB0089C7E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705268AA71DE8E2514D3931B /* Pods-Yard Sale 00.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89M3RHNVPX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Yard Sale 00/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RNAPPS.YardSale00;
@@ -453,9 +595,14 @@
 		};
 		6D9DDE671D6E61AB0089C7E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E96A0887A6F0E085827994 /* Pods-Yard Sale 00.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89M3RHNVPX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Yard Sale 00/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RNAPPS.YardSale00;
@@ -466,6 +613,7 @@
 		};
 		6D9DDE691D6E61AB0089C7E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51595A8C7E190893A5F4548B /* Pods-Yard Sale 00Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Yard Sale 00Tests/Info.plist";
@@ -479,6 +627,7 @@
 		};
 		6D9DDE6A1D6E61AB0089C7E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9A3ED54CE511FF30E37581 /* Pods-Yard Sale 00Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Yard Sale 00Tests/Info.plist";
@@ -492,6 +641,7 @@
 		};
 		6D9DDE6C1D6E61AB0089C7E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06779A19F7AE123058D69216 /* Pods-Yard Sale 00UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Yard Sale 00UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,6 +654,7 @@
 		};
 		6D9DDE6D1D6E61AB0089C7E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EF8D4E8024C6E4190ADFA9 /* Pods-Yard Sale 00UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Yard Sale 00UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
