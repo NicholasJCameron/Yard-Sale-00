@@ -19,6 +19,8 @@ class Register00: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var btnArrowForward: UIButton!
     @IBOutlet weak var btnArrowBack: UIButton!
     
+    @IBOutlet weak var lblBusinessNameCompleted: UILabel!
+    @IBOutlet weak var lblBusinessNameComplete: UILabel!
     var middleLabel = CGPoint();
     let screenSize: CGRect = UIScreen.main.bounds
     var inOrOut = 0;
@@ -36,11 +38,25 @@ class Register00: UIViewController,UITextFieldDelegate {
     
     
     override func viewDidLoad() {
+        //WARNING! WARNING! WARNING!
+        //Will need to restrict KEY on LAUNCH
+       
+
         super.viewDidLoad()
         self.txtData.delegate = self;
         lblError.isHidden = true;
         lblBusiessName.text = "Business Name"
         btnArrowBack.isEnabled = false;
+<<<<<<< Updated upstream
+=======
+        lblBusinessNameComplete.isHidden = true;
+        lblBusinessNameCompleted.isHidden = true;
+
+
+        
+        
+        
+>>>>>>> Stashed changes
     }
     
     
@@ -108,8 +124,12 @@ class Register00: UIViewController,UITextFieldDelegate {
            self.counter += 1;
             
             if(counter == 2){
+<<<<<<< Updated upstream
 //                if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
 
+=======
+                
+>>>>>>> Stashed changes
                 //This is adding to the data manager array and eventually it will populate it all
                 Registration.registrationData.append(businessName);
                 Registration.registrationData.append(businessLocation);
@@ -124,7 +144,11 @@ class Register00: UIViewController,UITextFieldDelegate {
             lblError.isHidden = false;
         
         }
+<<<<<<< Updated upstream
        // txtData.resignFirstResponder()
+=======
+
+>>>>>>> Stashed changes
     }
     
     
@@ -140,6 +164,47 @@ class Register00: UIViewController,UITextFieldDelegate {
     
     open func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
+        self.inOrOut = 0;
+        if(txtData.text != ""){
+            if(counter == 0){
+                businessName = txtData.text!;
+            }else{
+                businessLocation = txtData.text!;
+            }
+            
+            slideLabel(labelOne: lblBusiessName);
+            lblError.isHidden = true;
+            btnArrowBack.alpha = 1;
+            btnArrowBack.isEnabled = true;
+            txtData.text = "";
+            self.counter += 1;
+            lblBusinessNameCompleted.text = businessName;
+            
+            lblBusinessNameCompleted.isHidden = false;
+            lblBusinessNameComplete.isHidden = false;
+
+            if(counter == 2){
+                
+                //This is adding to the data manager array and eventually it will populate it all
+                Registration.registrationData.append(businessName);
+                Registration.registrationData.append(businessLocation);
+                
+                let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                
+                let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Register01") as! Register01
+                self.present(nextViewController, animated:true, completion:nil)
+                
+                // }
+            }
+            
+            
+            
+            
+        }else{
+            lblError.isHidden = false;
+            
+        }
+
         return true
     }
 
@@ -150,3 +215,7 @@ class Register00: UIViewController,UITextFieldDelegate {
     
 
 }
+
+
+
+
