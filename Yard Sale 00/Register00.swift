@@ -47,8 +47,7 @@ class Register00: UIViewController,UITextFieldDelegate {
         lblError.isHidden = true;
         lblBusiessName.text = "Business Name"
         btnArrowBack.isEnabled = false;
-<<<<<<< Updated upstream
-=======
+
         lblBusinessNameComplete.isHidden = true;
         lblBusinessNameCompleted.isHidden = true;
 
@@ -56,7 +55,6 @@ class Register00: UIViewController,UITextFieldDelegate {
         
         
         
->>>>>>> Stashed changes
     }
     
     
@@ -124,12 +122,9 @@ class Register00: UIViewController,UITextFieldDelegate {
            self.counter += 1;
             
             if(counter == 2){
-<<<<<<< Updated upstream
 //                if(  Registration.Register(userName: "nick", password: "pass", businessName: businessName, businessLocation: businessLocation, businessType: "Cafe")){
 
-=======
                 
->>>>>>> Stashed changes
                 //This is adding to the data manager array and eventually it will populate it all
                 Registration.registrationData.append(businessName);
                 Registration.registrationData.append(businessLocation);
@@ -144,11 +139,8 @@ class Register00: UIViewController,UITextFieldDelegate {
             lblError.isHidden = false;
         
         }
-<<<<<<< Updated upstream
        // txtData.resignFirstResponder()
-=======
 
->>>>>>> Stashed changes
     }
     
     
